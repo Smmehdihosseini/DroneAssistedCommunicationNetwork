@@ -7,8 +7,11 @@ Nowadays, we are witnessing a staggering and rapid growth of mobile traffic volu
 ### Part A
 
 **- 1)** We're investigating the case that a single drone, featuring a single antenna and no buffer, is sent to provide additional capacity during peak time.
+
 **- 2)** The case in which that a single drone has been equipped with two antennas with a finite buffer.
+
 **- 3)** Assuming an infinite buffer size, simulating the case in which two drones, each equipped with a single antenna are providing service to the area.
+
 **- 4)** Considering all the above cases with General Distributions.
 
 ### Part B
@@ -29,3 +32,6 @@ In this part, we assume that the drones can be powered either by a battery unit 
 **Note!** These values of autonomy only hold during daytime hours in which significant levels of renewable energy are produced, that we assume corresponding to the period from 8 a.m. to 4 p.m. During the rest of the day, the drone autonomy is 25 minutes. In any case, once the drone battery is empty, 60 minutes are required to fully recharge it.
 
 The process including the full charging of the battery from an empty state and the progressive discharge of the battery during the drone activity until it becomes empty again represents a complete charging/discharging cycle of the battery. The deterioration of the battery is typically proportional to the number of complete charging/discharging cycles, and, after the number of cycles that the battery undergoes achieves a given threshold (typically of the order of several hundreds of cycles), the battery needs to be replaced.
+
+Here we consider a realistic scenario in which the mobile traffic varies over time during the day. In the simulation area, the traffic typically features two peak
+periods, one in the morning and one in the afternoon after lunchtime, whereas as the evening approaches the traffic rate tends to decrease.
