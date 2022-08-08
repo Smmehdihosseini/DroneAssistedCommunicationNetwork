@@ -1,4 +1,4 @@
-# Summary
+# Drone Assisted Communication Network Management
 
 Nowadays, we are witnessing a staggering and rapid growth of mobile traffic volumes, featuring increasingly tighter Quality of Service constraints. Extensive densification of Radio Access Networks (RANs) is hence required to satisfy this huge and exacting service demand, especially in urban environments. Nevertheless, besides raising remarkable sustainability concerns due to the consequent energy consumption growth, the boundless expansion of terrestrial networks in smart city ecosystems may be limited by physical and regulatory constraints. In this context, aerial network nodes powered by renewable energy represent a promising solution to offer additional bandwidth capacity in locations where additional on-ground Base Stations cannot be installed, without increasing the energy demand from the power grid.
 
@@ -35,3 +35,53 @@ The process including the full charging of the battery from an empty state and t
 
 Here we consider a realistic scenario in which the mobile traffic varies over time during the day. In the simulation area, the traffic typically features two peak
 periods, one in the morning and one in the afternoon after lunchtime, whereas as the evening approaches the traffic rate tends to decrease.
+
+There are several strategies provided in this part:
+
+**- 1)** Considering a drone hosting a Base Station and equipped with a battery unit as power supply.
+
+<p align="center">
+  <img width="50%" height="50%" src="https://user-images.githubusercontent.com/63496218/183425964-7e1243f4-027f-489d-8d55-d2f704f3e740.png">
+</p>
+
+<p align="center">
+  <img width="50%" height="50%" src="https://user-images.githubusercontent.com/63496218/183426386-df1eb33c-15de-4318-ac02-0fe4e173e135.png">
+</p>
+
+<p align="center">
+  <img width="50%" height="50%" src="https://user-images.githubusercontent.com/63496218/183426415-0d2b891c-1f68-4662-9901-8f4fae455f99.png">
+</p>
+
+<p align="center">
+  <img width="50%" height="50%" src="https://user-images.githubusercontent.com/63496218/183426433-4272c7d1-345c-4ede-8f9f-8109336d71bb.png">
+</p>
+
+<p align="center">
+  <img width="50%" height="50%" src="https://user-images.githubusercontent.com/63496218/183426447-647c514b-c821-4c08-9bd7-33158da15461.png">
+</p>
+
+**- 2)** A scenario in which up to three drones are used in a business area, assuming they are powered by a battery only.
+
+<p align="center">
+  <img width="50%" height="50%" src="https://user-images.githubusercontent.com/63496218/183427844-d4454a27-b4f1-41e7-b0df-80f2ac33b20f.png">
+</p>
+
+<p align="center">
+  <img width="50%" height="50%" src="https://user-images.githubusercontent.com/63496218/183428113-bb26009a-4e13-4c80-9a28-e4a4246b864a.png">
+</p>
+
+
+**- 3)** A scenario with N available drones, that can be of three types, like, for example:
+
+| Specifications For Each Drone  | Type A | Type B | Type C |
+| :---: | :---: | :---: | :---: |
+| PV Type |  -  |  40W  |  70W  |
+| Service Rate |  Mu  |  2Mu  |  Mu  |
+| Buffer Size |  S  |  S  |  2S  |
+
+
+Considering N=2, there will be 6 different strategies to send the drones to the service area. All of these strategies and their following test results could be observed through the following table which are pairs of (A,A), (B,B), (C,C), (A,B), (A,C) and (B,C):
+
+<p align="center">
+  <img width="50%" height="50%" src="https://user-images.githubusercontent.com/63496218/183430839-bff53ace-5d7a-46b2-a724-78548b61405c.png">
+</p>
