@@ -85,3 +85,7 @@ Considering N=2, there will be 6 different strategies to send the drones to the 
 <p align="center">
   <img width="50%" height="50%" src="https://user-images.githubusercontent.com/63496218/183430839-bff53ace-5d7a-46b2-a724-78548b61405c.png">
 </p>
+
+## Requirements
+
+Find the `requirements.txt` in each folder and install them using `pip install requirements.txt` command in the abovementioned directories.
