@@ -80,7 +80,7 @@ There are several strategies provided in this part:
 | Buffer Size |  S  |  S  |  2S  |
 
 
-Considering N=2, there will be 6 different strategies to send the drones to the service area. All of these strategies and their following test results could be observed through the following table which are pairs of (A,A), (B,B), (C,C), (A,B), (A,C) and (B,C):
+Considering N=2, there will be 6 different strategies to send the drones to the service area. All of these strategies and their following test results could be observed through the following table which are pairs of (A,A), (B,B), (C,C), (B,C), (A,C), and (A,B):
 
 <p align="center">
   <img width="50%" height="50%" src="https://user-images.githubusercontent.com/63496218/183430839-bff53ace-5d7a-46b2-a724-78548b61405c.png">
